@@ -1,0 +1,4 @@
+begin
+  DBMS_OUTPUT.PUT_LINE(SAVING_WITHDRAWAL_PKG.F_GET_CURRENT_UNPOSTED_INT(:account_no,:p_date));
+end;
+/
